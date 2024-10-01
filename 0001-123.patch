@@ -1,0 +1,26 @@
+From f02885820e80575bb9ab4c954e8716ce9f17f83c Mon Sep 17 00:00:00 2001
+From: fanxiao <fx369246296@gmail.com>
+Date: Wed, 2 Oct 2024 00:22:47 +0900
+Subject: [PATCH] 123
+
+---
+ gitignore.txt | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/gitignore.txt b/gitignore.txt
+index a6875ab..ed923d7 100644
+--- a/gitignore.txt
++++ b/gitignore.txt
+@@ -50,6 +50,9 @@ flink-python/.idea/
+ flink-python/**/*.so
+ atlassian-ide-plugin.xml
+ out/
++data/
++SourceDataProcess\target
++StreamingAnalysis\target
+ /docs/api
+ /docs/.bundle
+ /docs/.rubydeps
+-- 
+2.45.1.windows.1
+
